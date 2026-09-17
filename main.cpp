@@ -4,7 +4,7 @@
 #include "fight.h"
 int main() {
     int Theobald = 100;
-    int Grimgor = 10;
+    int Grimgor = 100;
 
 
     while(Theobald > 0 && Grimgor > 0 ){
@@ -35,7 +35,7 @@ int main() {
         //Afficher un message de qui a gagner
         ;
     }
-    if (Theobald < 0);
+    if (Theobald < 0)
     {
         std::println("Grimgor a vaincu Theobald avec {} PV", Grimgor);
 
